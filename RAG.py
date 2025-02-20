@@ -52,5 +52,3 @@ if uploaded_file:
         response = qa(user_input)["result"]
         st.write("**Response:**")
         st.write(response)
-
-# %%
